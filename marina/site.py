@@ -27,3 +27,4 @@ class SiteConfig(object):
         nginx = self.path / 'nginx'
         nginx.mkdir_p()
         siteyml.write_text(yaml.dump(site_data))
+        
